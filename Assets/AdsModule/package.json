@@ -1,0 +1,18 @@
+﻿{
+  "name": "com.grv.ads-module",
+  "displayName": "Ads Module",
+  "description": "This package for show advertisements.",
+  "version": "1.0.0",
+  "unity": "2019.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadjime/AdsModule.git"
+  },
+  "author": "Gavrilov_Roma <GavrilovRoman@inbox.ru> (https://github.com/Hadjime)",
+  "dependencies": {},
+  "keywords": [
+    "Ads",
+    "Appodeal"
+  ]
+}
