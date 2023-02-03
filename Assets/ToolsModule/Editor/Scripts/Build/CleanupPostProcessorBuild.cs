@@ -9,7 +9,7 @@ using UnityEngine.Assertions;
 using UnityEditor.iOS.Xcode;
 #endif
 
-namespace Tools
+namespace GRV.ToolsModule
 {
     public static class CleanupPostProcessorBuild
     {

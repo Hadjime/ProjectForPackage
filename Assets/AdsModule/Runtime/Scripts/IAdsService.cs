@@ -1,6 +1,6 @@
 using System;
 
-namespace AdsModule
+namespace GRV.AdsModule
 {
     public interface IAdsService
     {

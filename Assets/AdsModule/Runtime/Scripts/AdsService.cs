@@ -1,8 +1,8 @@
 using System;
-using AdsModule.AdsProviders;
+using GRV.AdsModule.AdsProviders;
 using Zenject;
 
- namespace AdsModule
+ namespace GRV.AdsModule
  {
     public class AdsService : IAdsService, IInitializable
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace AdsModule.AdsProviders
+namespace GRV.AdsModule.AdsProviders
 {
     public class DummyAdsProvider: IAdsProvider
     {

@@ -1,4 +1,4 @@
-﻿namespace AdsModule.AdsProviders
+﻿namespace GRV.AdsModule.AdsProviders
 {
     public enum MobileAdsProviderType
     {

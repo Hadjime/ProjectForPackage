@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 
-namespace InternalAssets.Scripts.Services.Ads.AdsProviders
+namespace GRV.AdsModule.AdsProviders
 {
     public class GameScoreProvider : IAdsProvider
     {

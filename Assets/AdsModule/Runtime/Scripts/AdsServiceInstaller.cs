@@ -1,9 +1,9 @@
 using System;
-using AdsModule.AdsProviders;
+using GRV.AdsModule.AdsProviders;
 using UnityEngine;
 using Zenject;
 
-namespace AdsModule
+namespace GRV.AdsModule
 {
     [CreateAssetMenu(fileName = "AdsServiceInstaller", menuName = "Installers/AdsServiceInstaller")]
     public class AdsServiceInstaller : ScriptableObjectInstaller<AdsServiceInstaller>

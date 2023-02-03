@@ -1,10 +1,10 @@
 using System;
 using AppodealStack.Monetization.Api;
 using AppodealStack.Monetization.Common;
-using Tools;
+using GRV.ToolsModule;
 using UnityEngine;
 
-namespace AdsModule.AdsProviders
+namespace GRV.AdsModule.AdsProviders
 {
     public class AppodealProvider : IAdsProvider
     {

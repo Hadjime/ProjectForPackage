@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Tools
+namespace GRV.ToolsModule
 {
     public static class ImageExtensions
     {

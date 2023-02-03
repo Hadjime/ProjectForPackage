@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Tools
+namespace GRV.ToolsModule
 {
 	public class CustomDebug
 	{

@@ -1,7 +1,9 @@
 {
-    "name": "Tools.Editor",
+    "name": "GRV.ToolsModule.Editor",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:edd8c73c663ffdd4bb7c64cfb501a3cd"
+    ],
     "includePlatforms": [
         "Editor"
     ],
