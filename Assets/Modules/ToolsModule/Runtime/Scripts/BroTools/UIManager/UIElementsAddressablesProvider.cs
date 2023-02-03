@@ -12,7 +12,7 @@ namespace GRV.ToolsModule.BroTools
     {
         public const string UIELEMENT_KEY = "UIElement";
 
-        private readonly Dictionary<UIKey, UIElement> elements = new ();
+        private readonly Dictionary<UIKey, UIElement> elements = new Dictionary<UIKey, UIElement>();
 
         private AsyncOperationHandle handle;
 
