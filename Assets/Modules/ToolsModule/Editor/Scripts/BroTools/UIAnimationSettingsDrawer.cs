@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace GRV.ToolsModule.BroTools.UI
+namespace GRV.ToolsModule.BroTools
 {
     [CustomPropertyDrawer(typeof(UIElementAnimated.AnimationSettings))]
     public class UIAnimationSettingsDrawer : PropertyDrawer

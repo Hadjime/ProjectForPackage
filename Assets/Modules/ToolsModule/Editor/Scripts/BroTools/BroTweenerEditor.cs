@@ -1,13 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
 using UnityEditor;
-using System;
+using UnityEngine;
 
 namespace GRV.ToolsModule.BroTools
 {
 
     [CustomEditor(typeof(BroTweener)), CanEditMultipleObjects]
 
-    public class BroTweenerEditor : Editor
+    public class BroTweenerEditor : UnityEditor.Editor
     {
         BroTweener T;
         Event currentEvent;
