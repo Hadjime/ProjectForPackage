@@ -7,6 +7,22 @@
       "dependencies": {},
       "hash": "4c9c09738284b39a5d78bdb380e8163474f2e050"
     },
+    "com.gameanalytics.sdk": {
+      "version": "7.5.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.168"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.google.external-dependency-manager": {
+      "version": "1.2.172",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.unity.2d.animation": {
       "version": "7.0.7",
       "depth": 1,
@@ -189,6 +205,16 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.analytics": {
+      "version": "4.2.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.core": "1.4.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {

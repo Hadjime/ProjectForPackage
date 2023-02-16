@@ -1,0 +1,21 @@
+{
+    "name": "GRV.AnalyticsModule",
+    "rootNamespace": "",
+    "references": [
+        "GUID:edd8c73c663ffdd4bb7c64cfb501a3cd",
+        "GUID:5e0b455853cd340e0813387221dfd501",
+        "GUID:fe25561d224ed4743af4c60938a59d0b",
+        "GUID:f8c64bb88d959406689053ae3f31183d",
+        "GUID:2ac74ae79e4ea0e44990ec2541bfa262",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
