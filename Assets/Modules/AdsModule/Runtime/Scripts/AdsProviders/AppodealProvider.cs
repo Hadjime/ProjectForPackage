@@ -18,9 +18,9 @@ namespace GRV.AdsModule.AdsProviders
         {
             int adTypes = AppodealAdType.Interstitial | AppodealAdType.RewardedVideo;
             AppodealCallbacks.Sdk.OnInitialized += OnInitializationFinished;
-            Appodeal.Initialize(APP_KEY, adTypes);
-            
             Appodeal.SetTesting(isTestingMode);
+            Appodeal.Initialize(APP_KEY, adTypes);
+
             AppodealCallbacks.RewardedVideo.OnFinished += OnRewardedVideoFinished; 
         }
 
