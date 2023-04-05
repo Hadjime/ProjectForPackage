@@ -6,6 +6,6 @@ namespace GRV.AdsModule.AdsProviders
     {
         public void Initialize(bool isTestingMode = default);
         public void ShowInterstitialVideo();
-        public void ShowRewardedVideo(Action onRewardedVideoComplete);
+        public void ShowRewardedVideo(Action<bool> onRewardedVideoComplete);
     }
 }

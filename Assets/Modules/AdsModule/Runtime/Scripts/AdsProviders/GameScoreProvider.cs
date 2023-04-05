@@ -9,9 +9,9 @@ namespace GRV.AdsModule.AdsProviders
 {
     public class GameScoreProvider : IAdsProvider
     {
-        private Action onRewarded;
+        private Action<bool> onRewarded;
 
-        public void Initialize()
+        public void Initialize(bool isTestingMode = default)
         {
             GS_SDK.OnReady += OnReady;
             GS_Ads.OnRewardedReward += RewardReceived;
@@ -22,7 +22,7 @@ namespace GRV.AdsModule.AdsProviders
             GS_Ads.ShowFullscreen();
         }
 
-        public void ShowRewardedVideo(Action onRewardedVideoComplete)
+        public void ShowRewardedVideo(Action<bool> onRewardedVideoComplete)
         {
             onRewarded = onRewardedVideoComplete;
             
@@ -62,7 +62,7 @@ namespace GRV.AdsModule.AdsProviders
         
         private void RewardReceived(string arg0)
         {
-            onRewarded?.Invoke();
+            onRewarded?.Invoke(true);
         }
     }
 }

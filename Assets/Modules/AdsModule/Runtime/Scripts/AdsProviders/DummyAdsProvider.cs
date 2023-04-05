@@ -8,6 +8,6 @@ namespace GRV.AdsModule.AdsProviders
 
         public void ShowInterstitialVideo() { }
 
-        public void ShowRewardedVideo(Action onRewardedVideoComplete) { }
+        public void ShowRewardedVideo(Action<bool> onRewardedVideoComplete) { }
     }
 }

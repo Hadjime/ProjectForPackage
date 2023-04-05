@@ -11,7 +11,7 @@ namespace GRV.AdsModule.AdsProviders
         private const string APP_KEY = "c74b848f0a3259104e18d74f4ec049d20b513cbfb05cff5e";
         
         
-        private Action _onRewardedVideoComplete;
+        private Action<bool> _onRewardedVideoComplete;
 
 
         public void Initialize(bool isTestingMode = default)
@@ -32,7 +32,7 @@ namespace GRV.AdsModule.AdsProviders
             Appodeal.Show(AppodealShowStyle.Interstitial);
         }
 
-        public void ShowRewardedVideo(Action onRewardedVideoComplete)
+        public void ShowRewardedVideo(Action<bool> onRewardedVideoComplete)
         {
             _onRewardedVideoComplete = onRewardedVideoComplete;
             
@@ -50,7 +50,7 @@ namespace GRV.AdsModule.AdsProviders
         
         private void OnRewardedVideoFinished(object sender, RewardedVideoFinishedEventArgs e)
         {
-            _onRewardedVideoComplete?.Invoke();
+            _onRewardedVideoComplete?.Invoke(true);
         }
     }
 }

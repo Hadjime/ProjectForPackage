@@ -33,6 +33,6 @@ using Zenject;
 
         public void ShowInterstitialVideo() => adsProvider.ShowInterstitialVideo();
 
-        public void ShowRewardedVideo(Action onRewardedVideoComplete) => adsProvider.ShowRewardedVideo(onRewardedVideoComplete);
+        public void ShowRewardedVideo(Action<bool> onRewardedVideoComplete) => adsProvider.ShowRewardedVideo(onRewardedVideoComplete);
     }
  }
